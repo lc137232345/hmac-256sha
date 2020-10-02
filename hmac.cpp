@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-10-01 14:10:28
- * @LastEditTime: 2020-10-02 03:52:48
+ * @LastEditTime: 2020-10-02 08:44:43
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Editain
  * @FilePath: /test/test.cpp
@@ -10,12 +10,12 @@
 
 void hmac::set_str(string _str)
 {
-    const char *str = _str.c_str();
-    std::memcpy(str, str, len);
-    str = _str;
+    const char *str_star = _str.c_str();
+    int len=_str.length();
+    std::memcpy(str, str_star, len);
 }
 
-void hmac::set_str(string _str)
+void hmac::set_(string _str)
 {
     const char *str = _str.c_str();
 
