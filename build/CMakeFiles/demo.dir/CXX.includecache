@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lc/code/hmac-256sha/src/hmac.cpp
+openssl/hmac.h
+/home/lc/code/hmac-256sha/src/openssl/hmac.h
+iostream
+-
+iomanip
+-
+cstring
+-
+fstream
+-
+string
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/g++-4.8.5 -g -rdynamic CMakeFiles/demo.dir/src/hmac.cpp.o -o ../bin/demo  -lcrypto 

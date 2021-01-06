@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lc/code/hmac-256sha/build",
+  "command": "/usr/bin/g++-4.8.5   -g -std=gnu++11 -o CMakeFiles/demo.dir/src/hmac.cpp.o -c /home/lc/code/hmac-256sha/src/hmac.cpp",
+  "file": "/home/lc/code/hmac-256sha/src/hmac.cpp"
+}
+]
